@@ -5,7 +5,7 @@ import torch
 
 from datasets import Dataset, DatasetDict
 import ast
-from preprocessing import *
+from utils.preprocessing import *
 # from aeda import *
 
 class RE_Dataset(torch.utils.data.Dataset):

@@ -12,10 +12,8 @@
 
 ## 1.2. 리더보드 순위
 - public 2위 → private(최종) 1위
-  
-![](<img width="417" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/8bd86a52-e19d-4602-8998-0c20a69515e1">)
+  <img width="419" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/cf19e7c8-82bc-4cb3-aa64-cc6483cbd295">
 
-![](<img width="419" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/c96b7d94-beea-4fe8-bd17-6fd055fd9cee">)
 
 
 # 2. 프로젝트 수행
@@ -26,6 +24,7 @@
 - 주어진 Dataset은 Train (32,470, 6), Test (7,765, 6)으로 이루어져 있으며, Valid set은 따로 주어지지 않았다.
 - 각 데이터는 id, sentence, subject_entity, object_entity, label, source로 구성되어있다.
 - 예시
+  
 |   |   |
 |---|---|
 |id|0|

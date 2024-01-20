@@ -12,7 +12,11 @@
 
 ## 1.2. 리더보드 순위
 - public 2위 → private(최종) 1위
-  <img width="419" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/cf19e7c8-82bc-4cb3-aa64-cc6483cbd295">
+  
+  <img width="550" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/cf19e7c8-82bc-4cb3-aa64-cc6483cbd295">
+
+  <img width="550" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/d91e0350-073e-4a54-a0af-d2418cb109d8">
+
 
 
 

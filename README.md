@@ -11,11 +11,12 @@
 - 요약된 정보를 통한 **QA(Quality Assurance)** 구축과 활용이 가능하며, 이외에도 효율적인 시스템 및 서비스 구성 등이 가능하다.
 
 ## 1.2. 리더보드 순위
-- public 2위 → private(최종) 1위
+- public `2위` 
   
   <img width="600" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/1d226266-5c75-42fb-8e0d-ed9c4fca5632">
+  
 
-
+- private(최종) `1위`
   <img width="600" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/d91e0350-073e-4a54-a0af-d2418cb109d8">
 
 

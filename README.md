@@ -12,8 +12,8 @@
 
 ## 1.2. 리더보드 순위
 - public 2위 → private(최종) 1위
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/367fa983-0f8a-43ad-aecb-6374d6e02dff/Untitled.png)
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/a93090cc-6bee-4b8f-ad62-612fc71652ad/Untitled.png)
+![](<img width="417" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/8bd86a52-e19d-4602-8998-0c20a69515e1">ㅁ)
+![](<img width="419" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/c96b7d94-beea-4fe8-bd17-6fd055fd9cee">)
 
 
 # 2. 프로젝트 수행

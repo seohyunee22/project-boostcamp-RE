@@ -6,7 +6,7 @@ import torch
 from datasets import Dataset, DatasetDict
 import ast
 from utils.preprocessing import *
-# from aeda import *
+from aeda import *
 
 class RE_Dataset(torch.utils.data.Dataset):
   """ Dataset 구성을 위한 class."""

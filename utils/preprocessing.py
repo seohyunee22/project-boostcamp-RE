@@ -1,6 +1,6 @@
 import pandas as pd
 
-# punctuation english
+# style: to punctuation english
 def processing_special_punct_eng_tokens(dataset) :
   sentences = []
   subject_entity = []
@@ -35,7 +35,7 @@ def processing_special_punct_eng_tokens(dataset) :
   
   return sentences, subject_entity, object_entity
   
-# punctuation korean
+# style: to punctuation korean
 def processing_special_punct_kr_tokens(dataset) :
   sentences = []
   subject_entity = []
@@ -71,7 +71,7 @@ def processing_special_punct_kr_tokens(dataset) :
   
   return sentences, subject_entity, object_entity
 
-# masking entity
+# style: masking entity
 def processing_special_entity_masking_tokens(dataset) :
   sentences = []
   subject_entity = []
@@ -144,7 +144,7 @@ def preprocessing_dataset(dataset, preprocessing_mode) :
   print(out_dataset['sentence'].head(2))
   return out_dataset, special_token_list
 
-
+# style: add semantic typing
 def semantic_typing(dataset, punct_mode, sentence_mode) :
   print(f"punct_mode: {punct_mode}, sentence_mode: {sentence_mode}")
   type_mapping = {'PER': '사람', 'ORG': '기관', 'DAT': '날짜', 'LOC': '위치', 'POH': '기타', 'NOH': '수량'}

@@ -4,6 +4,7 @@
 # 1. Intro
 
 ## 1.1. 개요
+- 한국어 모델의 성능을 평가하기 위한 데이터셋인 KLUE(Korean Language Understanding Evaluation)의 8가지의 대표적인 task중 하나인 관계 추출(RE, Relation Extraction)을 수행하는 모델 제작
 - `관계 추출(Relation Extraction)`은 단어(Entity) 간의 관계를 예측하는 문제이다.
 - 이는 지식 그래프 구축을 위한 핵심 구성 요소로 구조화된 검색, 감정 분석, 질문 답변하기, 요약과 같은 자연어처리 응용 프로그램에서 중요하다.  
 - 따라서 주어진 Dataset의 문장 속에서 ,지정된 `두 단어(Entity) 사이의 관계`**와** `단어의 속성`**을 추론하는 모델의 성능을 높이는 것**이 이번 프로젝트의 `목표`이다.

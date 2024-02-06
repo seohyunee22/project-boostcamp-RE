@@ -1,7 +1,4 @@
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/44738f6d-f2b6-455b-9228-42a141d1468e/Untitled.png)
-
-
 ---
 # level2_klue-re_project
 문장 내 개체간 관계 추출(Relation Extraction, KLUE RE)
@@ -17,7 +14,7 @@
 - 요약된 정보를 통한 **QA(Quality Assurance)** 구축과 활용이 가능하며, 이외에도 효율적인 시스템 및 서비스 구성 등이 가능하다.
 
 ## 리더보드 순위
-- **public** `2위`→ **private(최종) `1위`**🏅
+- **public** `2위`→ **private**(최종) `1위`🏅
   
   <img width="700" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/1d226266-5c75-42fb-8e0d-ed9c4fca5632">
   
@@ -53,21 +50,21 @@
 ## Directory
 ```
 📦 level2_klue-nlp-07
-├─ README.md
-├─ requirements.txt
-├─ train code
+├─ train_code
 │  ├─ train.py
 │  ├─ kfold_train.py
 │  └─ sweep_train.py
+└─ utils
+│  ├─ preprocessing.py
+│  ├─ aeda.py
+│  ├─ dict_label_to_num.pkl
+│  ├─ dict_num_to_label.pkl
+│  ├─ losses.py
+│  └─ metrics.py
+├─ README.md
 ├─ load_data.py
 ├─ inference.py
-└─ utils
-   ├─ preprocessing.py
-   ├─ aeda.py
-   ├─ dict_label_to_num.pkl
-   ├─ dict_num_to_label.pkl
-   ├─ losses.py
-   └─ metrics.py
+└─ requirements.txt
 ```
 
 ## 프로젝트 수행

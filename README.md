@@ -51,25 +51,24 @@
 - Scikit-Learn
 
 ## Directory
-
-**level2_klue-nlp-07**
-├── README.md
-├── requirements.txt
-├── train code
-|  ├── train.py
-|  ├── kfold_train.py
-|  └── sweep_train.py
-├── load_data.py
-├── inference.py
-└── utils
-   ├── preprocessing.py
-   ├── aeda.py
-   ├── dict_label_to_num.pkl
-   ├── dict_num_to_label.pkl
-   ├── losses.py
-   └── metrics.py
-
----
+```
+📦 level2_klue-nlp-07
+├─ README.md
+├─ requirements.txt
+├─ train code
+│  ├─ train.py
+│  ├─ kfold_train.py
+│  └─ sweep_train.py
+├─ load_data.py
+├─ inference.py
+└─ utils
+   ├─ preprocessing.py
+   ├─ aeda.py
+   ├─ dict_label_to_num.pkl
+   ├─ dict_num_to_label.pkl
+   ├─ losses.py
+   └─ metrics.py
+```
 
 ## 프로젝트 수행
 

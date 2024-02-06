@@ -1,9 +1,14 @@
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/44738f6d-f2b6-455b-9228-42a141d1468e/Untitled.png)
+
+
+---
 # level2_klue-re_project
 문장 내 개체간 관계 추출(Relation Extraction, KLUE RE)
 
 # 1. Intro
 
-## 1.1. 개요
+## 대회 개요
 - 한국어 모델의 성능을 평가하기 위한 데이터셋인 KLUE(Korean Language Understanding Evaluation)의 8가지의 대표적인 task중 하나인 관계 추출(RE, Relation Extraction)을 수행하는 모델 제작
 - `관계 추출(Relation Extraction)`은 단어(Entity) 간의 관계를 예측하는 문제이다.
 - 이는 지식 그래프 구축을 위한 핵심 구성 요소로 구조화된 검색, 감정 분석, 질문 답변하기, 요약과 같은 자연어처리 응용 프로그램에서 중요하다.  
@@ -11,8 +16,8 @@
 - 문장 속에서 단어 간의 관계성 파악은 의미나 의도를 해석함에 있어서 많은 도움을 준다.
 - 요약된 정보를 통한 **QA(Quality Assurance)** 구축과 활용이 가능하며, 이외에도 효율적인 시스템 및 서비스 구성 등이 가능하다.
 
-## 1.2. 리더보드 순위
-- public `2위` 
+## 리더보드 순위
+- **public** `2위`→ **private(최종) `1위`**🏅
   
   <img width="700" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/1d226266-5c75-42fb-8e0d-ed9c4fca5632">
   
@@ -46,67 +51,11 @@
 
 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/44738f6d-f2b6-455b-9228-42a141d1468e/Untitled.png)
-
-## 목차
-
-### [대회 소개](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-
-- 대회개요
-- 리더보드 순위
-
-### [프로젝트 역할 및 구성](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-
-- 구성원
-- 협업 툴 및 Skills
-- Directory
-
-### [프로젝트 수행](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-
-- [EDA](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Data Preprocessing](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-    - [데이터클리닝(Data Cleaning)](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-    - [데이터 분할(Data Split)](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [초기 실험](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Input Format 변경](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Loss Function](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Hyper Parametes Tunning](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Data Postprocessing](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-    - [Subject Type - Label Head 일치](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-- [Ensemble](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-
-### [회고](https://www.notion.so/KLUE-a6e9560421d64b66950186f07839a5f9?pvs=21)
-
-- `Github` : https://github.com/seohyunee22/level2_klue-re_project
-
----
-
-## 대회 소개
-
-## 대회 개요
-
-> `관계 추출(Relation Extraction)`은 단어(Entity) 간의 관계를 예측하는 문제이다. 이는 지식 그래프 구축을 위한 핵심 구성 요소로 구조화된 검색, 감정 분석, 질문 답변하기, 요약과 같은 자연어처리 응용 프로그램에서 중요하다.  
-  따라서 주어진 Dataset의 문장 속에서, 지정된 `두 단어(Entity) 사이의 관계`**와** `단어의 속성`**을 추론하는 모델의 성능을 높이는 것**이 이번 프로젝트의 `목표`이다.
-> 
-- 문장 속에서 단어 간의 관계성 파악은 의미나 의도를 해석함에 있어서 많은 도움을 준다.
-- 요약된 정보를 통한 **QA(Quality Assurance)** 구축과 활용이 가능하며, 이외에도 효율적인 시스템 및 서비스 구성 등이 가능하다.
-
-## 리더보드 순위
-
-- **public** `2위`→ **private(최종) `1위`**🏅
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/367fa983-0f8a-43ad-aecb-6374d6e02dff/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/a93090cc-6bee-4b8f-ad62-612fc71652ad/Untitled.png)
-    
-
----
 
 ## 프로젝트 역할 및 구성
 
 ## Level2-NLP-07 코드 플레이
 
-[구성원 (가나다 순)](https://www.notion.so/65d27e949399441fa3f338928dd18824?pvs=21)
 
 ## 협업 툴
 
@@ -128,36 +77,21 @@
 ## Directory
 
 **level2_klue-nlp-07**
-
 ├── README.md
-
 ├── requirements.txt
-
-└── train code
-
-├── train.py
-
-├── kfold_train.py
-
-├── sweep_train.py
-
+├── train code
+|  ├── train.py
+|  ├── kfold_train.py
+|  └── sweep_train.py
 ├── load_data.py
-
 ├── inference.py
-
 └── utils
-
-├── preprocessing.py
-
-├── aeda.py
-
-├── dict_label_to_num.pkl
-
-├── dict_num_to_label.pkl
-
-├── losses.py
-
-└── metrics.py
+   ├── preprocessing.py
+   ├── aeda.py
+   ├── dict_label_to_num.pkl
+   ├── dict_num_to_label.pkl
+   ├── losses.py
+   └── metrics.py
 
 ---
 

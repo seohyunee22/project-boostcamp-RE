@@ -6,7 +6,7 @@
 # level2_klue-re_project
 문장 내 개체간 관계 추출(Relation Extraction, KLUE RE)
 
-# 1. Intro
+# Intro
 
 ## 대회 개요
 - 한국어 모델의 성능을 평가하기 위한 데이터셋인 KLUE(Korean Language Understanding Evaluation)의 8가지의 대표적인 task중 하나인 관계 추출(RE, Relation Extraction)을 수행하는 모델 제작
@@ -25,30 +25,6 @@
 - private(최종) `1위`
   
   <img width="700" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/d91e0350-073e-4a54-a0af-d2418cb109d8">
-
-
-
-
-# 2. 프로젝트 수행
-
-## 2.1. EDA
-
-### 2.1.1. Dataset
-- 주어진 Dataset은 Train (32,470, 6), Test (7,765, 6)으로 이루어져 있으며, Valid set은 따로 주어지지 않았다.
-- 각 데이터는 id, sentence, subject_entity, object_entity, label, source로 구성되어있다.
-- 예시
-  
-|   |   |
-|---|---|
-|id|0|
-|sentence|<Something〉는 조지 해리슨이 쓰고 비틀즈가 1969년 앨범 《Abbey Road》에 담은 노래다.|
-|subject_entity|{'word': '비틀즈', 'start_idx': 24, 'end_idx': 26, 'type': 'ORG'}|
-|object_entity|{'word': '조지 해리슨', 'start_idx': 13, 'end_idx': 18, 'type': 'PER'}|
-|label|no_relation|
-|source|wikipedia|
-
-
-
 
 
 

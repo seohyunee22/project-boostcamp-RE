@@ -86,10 +86,9 @@
 | source | wikipedia |
 
 ### 2.  Label, Source 분포
+<img width="500" alt="image" src="https://lh7-us.googleusercontent.com/UNFeBLA2Px8oLvzPWeoXoNx0Az9Um5T7VmXP3_k2kequUjKXxD3hLYcsmUCuTRRVcFA2KhL2oaI8VY8T2UYNnLXPrr6MRMptLbZkFNEuDDtNKE6kKtgx-TIrdZewy8HKJZM109jJOzrd7M60j2kyFMNs-A=s2048"> <img width="400" alt="image" src="https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYenRjPYh6uLhJ1fNdABTzYR0S1knr_8jZFn26m4D3F0msyblG3dMLeZt38DLS6QkL4bHpvl8EHr1eODuoXcUv38ksiztVZoij4fkxdJOrPZ5m6JfQ=s2048">
 
-https://lh7-us.googleusercontent.com/UNFeBLA2Px8oLvzPWeoXoNx0Az9Um5T7VmXP3_k2kequUjKXxD3hLYcsmUCuTRRVcFA2KhL2oaI8VY8T2UYNnLXPrr6MRMptLbZkFNEuDDtNKE6kKtgx-TIrdZewy8HKJZM109jJOzrd7M60j2kyFMNs-A=s2048
 
-https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYenRjPYh6uLhJ1fNdABTzYR0S1knr_8jZFn26m4D3F0msyblG3dMLeZt38DLS6QkL4bHpvl8EHr1eODuoXcUv38ksiztVZoij4fkxdJOrPZ5m6JfQ=s2048
 
 - Train 데이터 : (32470, 6),  Test 데이터 : (7765, 6)
 - 가장 많은 Label(no_relation) 9,534 개, 가장 적은 Label(per:place_of_death)가 40개로 분포가 Imbalanced 한 분포를 가진다.
@@ -148,8 +147,7 @@ https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYe
         
 
 ### 데이터 분할(Data Split)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/0ec6a12a-d2cb-497d-8527-a3bb7df504f1/Untitled.png)
+<img width="700" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/c8d9c8dc-68f4-4260-a194-2c7f966ea3bb">
 
 - 기존 Dataset 분할
     - Stratified Shuffle Split 과 sklearn.train_test_split을 사용하여 Label 비율을 Train : Valid = 8 : 2 유지하는 방향으로 데이터셋 분할
@@ -198,8 +196,7 @@ https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYe
 
 - **sentence = 조지 해리슨이 쓰고 비틀즈가 앨범에 담은 노래다**
 - 전체적인 구조도
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/843bbf73-310f-4a35-9a3b-9d3b9a590906/Untitled.png)
+<img width="700" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/41722b85-4a71-4443-9abb-40ccea347aa6">
 
 ### A.  Entity Marker(**Entity Masked Special Token)**
 
@@ -304,9 +301,8 @@ https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYe
 ### F.  Source Marker w/Special Tokens
 
 - 착안 : EDA 과정에서, 데이터 source에 따라 라벨 분포에 경향성이 있는 것을 보고 착안
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/defe4d0a-ddf0-491f-9e59-6dfb9da87ae7/Untitled.png)
-    
+<img width="500" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/f25ae02e-39f6-4848-b620-145f779175f4">
+
 - 가설 : [CLS] SUBJECT [SEP] OBJECT ****[SEP] `[Source]` ****[SEP] + Sentence 와 같은 형태로,
           Input 데이터에 Source 스페셜 토큰을 추가하면 모델의 성능이 향상될 것이다.
 - 예시
@@ -380,15 +376,14 @@ https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYe
     
 
 ### Learning Rate
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/6736895f-f124-4d8a-a483-259181ca623a/Untitled.png)
+<img width="500" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/61ff9541-f2a4-436b-b9c3-17280d883d6a">
 
 - 실험 : sweep을 활용한 다양한 learning rate 학습 시도 및 최적의 learning rate 탐색
 - 결과 : 리더보드 F1-score 기준 **70.2360 → 73.83748** 으로 성능 향상
 
 ### Random Seed
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/be5b61f5-ebc6-43e5-9d4f-84fdb586ff8f/Untitled.png)
+<img width="500" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/3d8cbc12-9481-4db6-b221-00f14d3e6679">
 
 - 착안 : 첫 step의 train/loss가 낮으면 일반적으로 성능이 높았다.
 - 가설 : seed의 변경으로 처음 step의 train/loss 값을 낮추면 성능이 올라가지 않을까?
@@ -419,8 +414,6 @@ https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYe
 ## Ensemble
 
 - 최대한 다른 전처리 방식과 seed의 모델들을 여러 조합으로 Soft voting Ensemble 하였다.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edf28dd1-8b29-4a8e-8a10-5aafc6d5a7b6/f37fd107-0f73-4d43-a0a4-fda10c54ff43/Untitled.png)
     
 - 단일 모델 최고점 75.4402 → `76.9665` 점 기록
     - klue/RoBERTa-large 고정

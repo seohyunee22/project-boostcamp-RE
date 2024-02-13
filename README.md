@@ -426,10 +426,10 @@
 ---
 
 ## Reference
-1. Wenxuan Zhou, Muhao Chen (2022). An Improved Baseline for Sentence-level Relation Extraction. _arXiv preprint arXiv:2102.01373_.
-2. James Y. Huang, Bangzheng Li, Jiashu Xu, Muhao Chen (2022). Unified Semantic Typing with Meaningful Label Inference. _arXiv preprint arXiv:2205.01826_.
-3. Rafael Müller, Simon Kornblith, Geoffrey Hinton (2020). When Does Label Smoothing Help?. _arXiv preprint arXiv:1906.02629_.
-4. Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollár (2018). Focal Loss for Dense Object Detection. _arXiv preprint arXiv:1708.02002_.
+[1] Wenxuan Zhou, Muhao Chen (2022). An Improved Baseline for Sentence-level Relation Extraction. _arXiv preprint arXiv:2102.01373_.
+[2] James Y. Huang, Bangzheng Li, Jiashu Xu, Muhao Chen (2022). Unified Semantic Typing with Meaningful Label Inference. _arXiv preprint arXiv:2205.01826_.
+[3] Rafael Müller, Simon Kornblith, Geoffrey Hinton (2020). When Does Label Smoothing Help?. _arXiv preprint arXiv:1906.02629_.
+[4] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollár (2018). Focal Loss for Dense Object Detection. _arXiv preprint arXiv:1708.02002_.
 
 ---
 

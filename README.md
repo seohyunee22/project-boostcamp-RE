@@ -27,8 +27,6 @@
 
 ## 프로젝트 역할 및 구성
 
-## Level2-NLP-07 코드 플레이
-
 
 ## 협업 툴
 
@@ -86,7 +84,7 @@
 | source | wikipedia |
 
 ### 2.  Label, Source 분포
-<img width="500" alt="image" src="https://lh7-us.googleusercontent.com/UNFeBLA2Px8oLvzPWeoXoNx0Az9Um5T7VmXP3_k2kequUjKXxD3hLYcsmUCuTRRVcFA2KhL2oaI8VY8T2UYNnLXPrr6MRMptLbZkFNEuDDtNKE6kKtgx-TIrdZewy8HKJZM109jJOzrd7M60j2kyFMNs-A=s2048"> <img width="400" alt="image" src="https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYenRjPYh6uLhJ1fNdABTzYR0S1knr_8jZFn26m4D3F0msyblG3dMLeZt38DLS6QkL4bHpvl8EHr1eODuoXcUv38ksiztVZoij4fkxdJOrPZ5m6JfQ=s2048">
+<img width="450" alt="image" src="https://lh7-us.googleusercontent.com/UNFeBLA2Px8oLvzPWeoXoNx0Az9Um5T7VmXP3_k2kequUjKXxD3hLYcsmUCuTRRVcFA2KhL2oaI8VY8T2UYNnLXPrr6MRMptLbZkFNEuDDtNKE6kKtgx-TIrdZewy8HKJZM109jJOzrd7M60j2kyFMNs-A=s2048"> <img width="350" alt="image" src="https://lh7-us.googleusercontent.com/oSyk_fdt3m7ZTGJlnFaxXTLKBc44H-RZ6PWk2BL-IYenRjPYh6uLhJ1fNdABTzYR0S1knr_8jZFn26m4D3F0msyblG3dMLeZt38DLS6QkL4bHpvl8EHr1eODuoXcUv38ksiztVZoij4fkxdJOrPZ5m6JfQ=s2048">
 
 
 
@@ -424,6 +422,14 @@
         4.   lr = 1.5e-05 / seed = c / punctuation_kor / epoch = 4 / CE Loss / …
                                                                       …
         > 
+
+---
+
+## Reference
+1. ≪An Improved Baseline for Sentence-level Relation Extraction≫, https://arxiv.org/pdf/2205.01826v1.pdf
+2. ≪Unified Semantic Typing with Meaningful Label Inference≫, https://arxiv.org/pdf/2205.01826v1.pdf
+3. ≪When Does Label Smoothing Help?≫, https://arxiv.org/abs/1906.02629
+4. ≪Focal Loss for Dense Object Detection≫, https://arxiv.org/pdf/1708.02002.pdf
 
 ---
 

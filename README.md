@@ -12,7 +12,7 @@
 
 <table align="center">
   <tr height="8px">
-    <td align="center" style="text-align:center;" width="80px">
+    <td align="center" style="text-align:center;" width="160px">
       <b>Solution 발표자료</b>
     </td>
     <td align="center" style="text-align:center;" width="80px">
@@ -73,50 +73,50 @@
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>id</b>
+      id
     </td>
     <td align="center" style="text-align:center;" width="500px">
-      <b>0</b>
+      0
     </td>
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>sentence</b>
+      sentence
     </td>
-    <td align="center" style="text-align:center;" width="600px">
-      <b>〈Something〉는 조지 해리슨이 쓰고 비틀즈가 1969년 앨범 《Abbey Road》에 담은 노래다.</b>
+    <td align="center" style="text-align:center;" width="500px">
+      〈Something〉는 조지 해리슨이 쓰고 <br>비틀즈가 1969년 앨범 《Abbey Road》에 담은 노래다.
     </td>
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>subject_entity</b>
+      subject_entity
     </td>
     <td align="center" style="text-align:center;" width="500px">
-      <b>{'word': '비틀즈', 'start_idx': 24, 'end_idx': 26, 'type': 'ORG'}</b>
+      {'word': '비틀즈', 'start_idx': 24, 'end_idx': 26, 'type': 'ORG'}
     </td>
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>object_entity</b>
+      object_entity
     </td>
     <td align="center" style="text-align:center;" width="500px">
-      <b>{'word': '조지 해리슨', 'start_idx': 13, 'end_idx': 18, 'type': 'PER'}</b>
+      {'word': '조지 해리슨', 'start_idx': 13, 'end_idx': 18, 'type': 'PER'}
     </td>
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>label</b>
+      label
     </td>
     <td align="center" style="text-align:center;" width="500px">
-      <b>no_relation</b>
+      no_relation
     </td>
   </tr>
   <tr height="8px">
     <td align="center" style="text-align:center;" width="60px">
-      <b>source</b>
+      source
     </td>
     <td align="center" style="text-align:center;" width="500px">
-      <b>wikipedia</b>
+      wikipedia
     </td>
   </tr>
 </table>
@@ -126,7 +126,7 @@
 ## 🏅 리더보드 순위
 - **public** `2위`→ **private**(최종) `1위`🏅
 <p align="center">
-  <img width="600px" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/d91e0350-073e-4a54-a0af-d2418cb109d8">
+  <img width="900px" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/d91e0350-073e-4a54-a0af-d2418cb109d8">
 </p>
   <!--<img width="500" alt="image" src="https://github.com/seohyunee22/level2_klue-re_project/assets/152946581/1d226266-5c75-42fb-8e0d-ed9c4fca5632">   -->
 
@@ -140,7 +140,7 @@
     <td align="center" style="text-align:center;" width="190px">
       <b>공통</b>
     </td>
-    <td align="center" style="text-align:center;" width="760px">
+    <td align="center" style="text-align:center;" width="1020px">
       <b>Model 성능 테스트, 하이퍼파라미터 실험, Fine-Tuning</b>
     </td>
   </tr>
@@ -222,7 +222,7 @@
 <br>
 <br>
 
-<p align="center">협업관리</p>
+### <p align="center">협업관리</p>
 <table align="center">
   <tr height="8px">
     <td align="center" style="text-align:center;" width="80px">
@@ -231,7 +231,7 @@
     <td align="center" style="text-align:center;" width="80px">
       <b>Github</b>
     </td>
-    <td align="center" style="text-align:center;" width="80px">
+    <td align="center" style="text-align:center;" width="190px">
       <b>W&B</b>
     </td>
   </tr>
@@ -243,7 +243,7 @@
     <td align="center" width="150px">
       <a href="https://github.com/boostcampaitech6/level2-klue-nlp-07"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white">
     </td>
-    <td align="center" style="text-align:center;" width="150px">
+    <td align="center" style="text-align:center;" width="190px">
       실시간 실험 결과 공유
     </td>
   </tr>
@@ -320,7 +320,7 @@
     <td align="left" style="text-align:left;" width="260px">
       - Data Cleaning<br>(중복 데이터, 한자 및 기타 특수문자 제거) <br>
       - 데이터 분할<br>
-      - 데이터 전처리(Input Format 변경)<br>
+      - 데이터 전처리<br>(Input Format 변경)<br>
     </td>
     <td align="left" style="text-align:left;" width="260px">
       - CE Loss <br>
@@ -350,6 +350,5 @@
 
 [4] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollár (2018). Focal Loss for Dense Object Detection. _arXiv preprint arXiv:1708.02002_.
 
----
 
 

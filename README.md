@@ -18,6 +18,9 @@
     <td align="center" style="text-align:center;" width="80px">
       <b>Wrap-up Report</b>
     </td>
+    <td align="center" style="text-align:center;" width="80px">
+      <b>개인 회고</b>
+    </td>
   </tr>
   
   <tr height="40px">
@@ -26,6 +29,9 @@
     </td>
     <td align="center" width="150px">
       <a href="/assets/RE-wrapup-report-NLP07.pdf"><img src="https://img.shields.io/badge/PDF-CC2927?style=flat-square&logo=microsoft&logoColor=white">
+    </td>
+    <td align="center" width="150px">
+      <a href="https://www.notion.so/mayy2yy/Project-KLUE-RE-a6e9560421d64b66950186f07839a5f9?pvs=4#1429a9019de9497e9b52e3ea85822068"><img src="https://img.shields.io/badge/notion-%23000000.svg?&style=flat-square&logo=notion&logoColor=white "/></a>
     </td>
   </tr>
 </table>

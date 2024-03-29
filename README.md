@@ -335,7 +335,7 @@
   </tr>
 </table>
 <br>
-🔎 프로젝트 수행과정에 대한 자세한 내용은 <a href="https://www.notion.so/mayy2yy/KLUE-RE-a6e9560421d64b66950186f07839a5f9"><img src="https://img.shields.io/badge/notion-%23000000.svg?&style=for-the-badge&logo=notion&logoColor=white "/></a>(클릭시 이동) 에서 확인하실 수 있습니다.
+🔎 프로젝트 수행과정에 대한 자세한 내용은 <a href="https://www.notion.so/mayy2yy/Project-KLUE-RE-a6e9560421d64b66950186f07839a5f9?pvs=4#1429a9019de9497e9b52e3ea85822068"><img src="https://img.shields.io/badge/notion-%23000000.svg?&style=for-the-badge&logo=notion&logoColor=white "/></a>(개인 회고, 클릭시 이동) 에서 확인하실 수 있습니다.
 
 
 <br>

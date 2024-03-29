@@ -121,6 +121,13 @@
   </tr>
 </table>
 <br>
+
+### 4. 평가 방법
+평가 방법은 다음과 같습니다.
+- no_relation class를 제외한 <code>_**micro**_ F1</code> score
+- 모든 class에 대한 `AUPRC` (area under the precision-recall curve)
+- 2가지 metric으로 평가하며, <code>_**micro**_ F1</code> score가 우선시 됩니다.
+<br>
 <br>
 
 ## 🏅 리더보드 순위
